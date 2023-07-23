@@ -23,7 +23,7 @@ int print_bin(va_list biner)
 		}
 		p = 1;
 		for (j = 1; j <= length - 1; j++)
-      p *= 2;
+			p *= 2;
 		for (j = 1; j <= length; j++)
 		{
 			dig = x / p;
