@@ -33,6 +33,11 @@ typedef struct code_format
 	int (*f)(va_list);
 } code_f;
 
+/**
+  * struct structprint - Struct format
+  * @q: The specifiers
+  * @u: The function associated
+  */
 typedef struct structprint
 {
 	char *q;

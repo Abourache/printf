@@ -16,7 +16,7 @@ int print_char(va_list car)
 	return (1);
 }
 /**
- * print_porcentage - %
+ * print_porcente - function writes %
  *
  * Return: 1.
  */

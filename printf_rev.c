@@ -9,7 +9,7 @@
 int print_rev(va_list rev)
 {
 	int i, j = 0;
-  char *ptr;
+	char *ptr;
 
 	ptr = va_arg(rev, char *);
 	if (ptr == NULL)
